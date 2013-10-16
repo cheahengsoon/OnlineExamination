@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+  <Item ID="1" Question="what is ur name" OptionA="nithya" OptionB="nith" OptionC="nithi"></Item>
+  <Item ID="2" Question="what is ur school" OptionA="oxford" OptionB="BITS" OptionC="IAM"></Item>
+  
+</Questions>

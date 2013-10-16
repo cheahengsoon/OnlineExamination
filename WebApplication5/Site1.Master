@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication5.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="CSS/stylesheet.css" rel="stylesheet" type="text/css" />
+     <script type="text/javascript">
+         function  popup() 
+         {
+             window.open('LoginPage.aspx', "mywindow", "menubar=1,resizable=1,width=350,height=250", 'toolbar=no');
+
+             }
+           
+  
+     </script>
+    
+</head>
+
+<body>
+
+    
+    
+    <form id="form1" runat="server">
+    
+    <div id = "Header">
+         <img src="Images/images (1).jpg" alt="Powered by ASP.NET!" width="100%" />
+</div>
+<div id="menu" class="nav">
+<ul>
+<li><a href="Login1.aspx">Login</a></li>
+<%--<li><a href="ExamList.aspx">Register</a></li>--%>
+
+<li><a href="about.aspx">About</a></li>
+</ul>
+        <asp:Panel ID="Panel1" runat="server" BackColor="#CC0000" BorderColor="#CC0000">
+        </asp:Panel>
+    </div>
+    <%--.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-5deg);
+     -moz-transform: rotate(-5deg);
+       -o-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+  <div class="tilt pic">
+    <asp:Panel ID="Panel2" runat="server" BackColor="#CC0000" BorderColor="#CC0000">
+     <img src="Images/login.jpg" alt="Powered by ASP.NET!"  />
+      </asp:Panel>
+      </div>--%>
+    <div id="mainContent">
+
+        <asp:ContentPlaceHolder ID="Maincontent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+ 
+    <div id="footer">
+        <img src="Images/Footer.jpg" alt="Powered by ASP.NET!" width="100%" />
+    </div>
+    </form>
+</body>
+
+</html>
+

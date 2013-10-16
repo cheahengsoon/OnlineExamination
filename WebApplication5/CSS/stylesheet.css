@@ -1,0 +1,105 @@
+﻿#mainContent
+{
+
+	height:1068px;
+	background-color:Beige;
+}
+#advertisement
+{
+
+	float:left;
+	width:40%;
+	
+}
+#footer
+{
+	
+	height:10%;
+
+}
+
+body { 
+width: 950px; 
+margin: 0 auto; /* centers */ 
+background-image:Url(C:\Users\nithya\documents\visual studio 2010\Projects\WebApplication5\WebApplication5\Images\BG.jpg);
+background-repeat:no-repeat;
+height:80%;
+
+
+
+
+} 
+#login
+{
+	background-color:Chocolate;
+	-moz-box-shadow: -5px -5px 5px #888;
+-webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: -5px -5px 5px #885;
+width:40%;
+
+}
+
+#CreateUserWizard1
+{
+		background-color:Chocolate;
+	-moz-box-shadow: -5px -5px 5px #888;
+-webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: -5px -5px 5px #885;
+float:left;
+	margin-left: 0px;
+}
+#Header
+{
+	background-image:url(C:\Users\nithya\documents\visual studio 2010\Projects\WebApplication5\WebApplication5\Images\images (1).jpg);
+	height:10%
+}
+
+
+#Panel2
+{
+	height:50px;
+}
+
+
+
+#tilt pic
+{
+	height:80px;
+	background-size:80px 60px;
+	
+}
+#Panelgrid
+{
+
+
+}
+#Label3
+{
+		background-color:Chocolate;
+	-moz-box-shadow: -5px -5px 5px #888;
+-webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: -5px -5px 5px #885;
+width:40%;
+float:right;
+}
+
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:BurlyWood;
+}
+.nav li{
+    display:inline;
+    font-size:large;
+    font-style:normal
+    fo
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
